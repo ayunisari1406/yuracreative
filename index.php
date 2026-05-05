@@ -197,9 +197,13 @@ nav.scrolled {
 }
 .hero-title em { font-style: normal; color: var(--pink-600); font-weight: 800; }
 .hero-title .stroke {
-  -webkit-text-stroke: 2px var(--pink-400);
-  color: transparent;
-  font-weight: 800;
+  font-family: var(--ff-display);
+  font-size: clamp(2.8rem, 5vw, 4.5rem);
+  line-height: 1.1; font-weight: 800;
+  color: var(--text-dark);
+  margin-bottom: 24px;
+  animation: fadeUp 0.8s var(--ease-spring) 0.1s both;
+  letter-spacing: -0.02em;
 }
 
 .hero-desc {
@@ -821,7 +825,7 @@ footer {
   </div>
   <div class="footer-bottom">
     <span class="footer-copy">© 2025 <span>Yura Creative</span>. All rights reserved.</span>
-    <span class="footer-copy">Made with <span>♥</span> in Indonesia</span>
+    <span class="footer-copy">Made with <span>♥️</span> in Indonesia</span>
   </div>
 </footer>
 
