@@ -22,9 +22,9 @@ $stats = [
 ];
 
 $packages = [
-    ["name" => "Starter", "price" => "1.5", "color" => "#f9a8d4", "features" => ["3 Platform Sosmed", "12 Konten/Bulan", "Basic Copywriting", "Monthly Report", "Email Support"]],
-    ["name" => "Growth", "price" => "3.5", "color" => "#ec4899", "popular" => true, "features" => ["5 Platform Sosmed", "30 Konten/Bulan", "Full Copywriting", "Influencer 2x/Bulan", "Weekly Report", "Priority Support"]],
-    ["name" => "Premium", "price" => "7.5", "color" => "#be185d", "features" => ["All Platform", "Unlimited Konten", "Brand Strategy", "Influencer 4x/Bulan", "Daily Report", "Dedicated Manager"]],
+    ["name" => "Starter", "price" => "1.5", "color" => "#f9a8d4", "features" => ["Konsep Desain Sosial Media", "Copywriting Menjual", "12 Post Feed Instagram", "2 Feed Carousel", "2 Video Story" , "Free Highlight Cover" , "Admin Post Feed" , "Caption & Hashtag" ]],
+    ["name" => "Growth", "price" => "3.5", "color" => "#ec4899", "popular" => true, "features" => ["Konsep Desain Sosial Media", "Copywriting Menjual", "25 Post Feed Instagram", "6 Feed Carousel", "5 Video Story", "Free Highlight Cover", "Admin Post Feed", "Caption & Hashtag"]],
+    ["name" => "Premium", "price" => "7.5", "color" => "#be185d", "features" => ["Semua fitur Paket Growth", "Pembuatan Website Perusahaan (Landing Page / Company Profile)", "Integrasi WhatsApp / Contact Form", "Desain Website Menyesuaikan Branding", "Free Maintenance Website (basic)", "Support konsultasi digital"]],
 ];
 ?>
 <!DOCTYPE html>
@@ -32,7 +32,7 @@ $packages = [
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Yura Creative — Social Media Agency</title>
+<title>Yura Creative</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
@@ -594,7 +594,7 @@ footer {
 
 <!-- NAV -->
 <nav id="navbar">
-  <div class="nav-logo">Yura<span>✦</span>Creative</div>
+  <div class="nav-logo">Yura Creative <span>✦</span></div>
   <ul class="nav-links">
     <li><a href="#services">Layanan</a></li>
     <li><a href="#about">Tentang</a></li>
@@ -779,7 +779,7 @@ footer {
   <p class="cta-desc reveal">Konsultasi gratis, tanpa commitment. Kita obrolin dulu kebutuhan lo!</p>
   <div class="cta-btns reveal">
     <a href="https://wa.me/6283865716262" class="btn-white" target="_blank">💬 Chat WhatsApp</a>
-    <a href="yuracreative14@gmail.com" class="btn-outline-white">📧 Kirim Email</a>
+    <a href="mailto:yuracreative14@gmail.com" class="btn-outline-white">📧 Kirim Email</a>
   </div>
 </section>
 
@@ -789,12 +789,7 @@ footer {
     <div class="footer-brand">
       <span class="nav-logo">Yura<span style="color:var(--pink-500)">✦</span>Creative</span>
       <p>Jasa handle sosial media profesional yang bantu brand lo tumbuh organik dan sustainable. Dipercaya 500+ klien seluruh Indonesia.</p>
-      <div class="footer-socials">
-        <a href="#" class="social-btn">in</a>
-        <a href="#" class="social-btn">ig</a>
-        <a href="#" class="social-btn">tt</a>
-        <a href="#" class="social-btn">tw</a>
-      </div>
+
     </div>
     <div class="footer-col">
       <h4>Layanan</h4>
@@ -817,7 +812,7 @@ footer {
       <ul>
         <li><a href="#">📍 Jakarta, Indonesia</a></li>
         <li><a href="#">📞 +62 838-6571-6262</a></li>
-        <li><a href="#">✉️ yuracreative14@gmail.com/a></li>
+        <li><a href="#">✉️ yuracreative14@gmail.com</a></li>
         <li><a href="#">⏰ Mon–Fri, 9am–6pm</a></li>
       </ul>
     </div>
