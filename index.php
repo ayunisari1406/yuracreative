@@ -635,8 +635,7 @@ footer {
       <div class="floating-card card-behind-1"></div>
       <div class="floating-card card-main">
         <div class="card-avatar">YC</div>
-        <div class="card-name">@brandklien.official</div>
-        <div class="card-sub">Managed by Yura Creative</div>
+        <div class="card-name">@yuracreative</div>
         <div class="card-metrics">
           <div class="metric"><div class="metric-num">48K</div><div class="metric-label">Followers</div></div>
           <div class="metric"><div class="metric-num">8.4%</div><div class="metric-label">Eng. Rate</div></div>
@@ -692,7 +691,7 @@ footer {
   <div class="about-grid">
     <div class="about-visual reveal">
       <div class="about-img-wrap">
-        <span class="about-icon-big">✦</span>
+        <span class="about-icon-big"> </span>
         <div class="about-title">Yura Creative</div>
         <p class="about-text">Creative agency yang passionate soal pertumbuhan brand. Tim kita terdiri dari kreator, stratejis, dan data analyst yang udah bantu ratusan bisnis berkembang.</p>
       </div>
@@ -755,7 +754,7 @@ footer {
 <section class="testimonials" id="testimonials">
   <div class="section-header reveal">
     <div class="section-tag">Kata Klien Kami</div>
-    <h2 class="section-title">Mereka Udah<br><em>Buktiin Sendiri</em></h2>
+    <h2 class="section-title">Mereka Udah<br><em>Buktin Sendiri</em></h2>
   </div>
   <div class="testi-grid">
     <?php foreach($testimonials as $i => $t): ?>
@@ -779,8 +778,8 @@ footer {
   <h2 class="cta-title reveal">Siap Bawa Brand Lo<br>ke Level Berikutnya?</h2>
   <p class="cta-desc reveal">Konsultasi gratis, tanpa commitment. Kita obrolin dulu kebutuhan lo!</p>
   <div class="cta-btns reveal">
-    <a href="https://wa.me/6281234567890?text=Halo%20Yura%20Creative,%20saya%20ingin%20konsultasi" class="btn-white" target="_blank">💬 Chat WhatsApp</a>
-    <a href="mailto:hello@yuracreative.id" class="btn-outline-white">📧 Kirim Email</a>
+    <a href="https://wa.me/6283865716262" class="btn-white" target="_blank">💬 Chat WhatsApp</a>
+    <a href="yuracreative14@gmail.com" class="btn-outline-white">📧 Kirim Email</a>
   </div>
 </section>
 
@@ -817,8 +816,8 @@ footer {
       <h4>Kontak</h4>
       <ul>
         <li><a href="#">📍 Jakarta, Indonesia</a></li>
-        <li><a href="#">📞 +62 812-3456-7890</a></li>
-        <li><a href="#">✉️ hello@yuracreative.id</a></li>
+        <li><a href="#">📞 +62 838-6571-6262</a></li>
+        <li><a href="#">✉️ yuracreative14@gmail.com/a></li>
         <li><a href="#">⏰ Mon–Fri, 9am–6pm</a></li>
       </ul>
     </div>
@@ -830,7 +829,7 @@ footer {
 </footer>
 
 <!-- WhatsApp Float -->
-<a href="https://wa.me/6281234567890" class="wa-float" target="_blank" title="Chat WhatsApp">💬</a>
+<a href="https://wa.me/6283865716262" class="wa-float" target="_blank" title="Chat WhatsApp">💬</a>
 
 <script>
 // Custom cursor
