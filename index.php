@@ -753,7 +753,7 @@ footer {
 <section class="testimonials" id="testimonials">
   <div class="section-header reveal">
     <div class="section-tag">Kata Klien Kami</div>
-    <h2 class="section-title">Mereka Udah<br><em>Buktin Sendiri</em></h2>
+    <h2 class="section-title">Mereka Udah<br><em>Buktiin Sendiri</em></h2>
   </div>
   <div class="testi-grid">
     <?php foreach($testimonials as $i => $t): ?>
