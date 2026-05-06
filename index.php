@@ -22,9 +22,9 @@ $stats = [
 ];
 
 $packages = [
-    ["name" => "Starter", "price" => "1.5", "color" => "#f9a8d4", "features" => ["Konsep Desain Sosial Media", "Copywriting Menjual", "12 Post Feed Instagram", "2 Feed Carousel", "2 Video Story" , "Free Highlight Cover" , "Admin Post Feed" , "Caption & Hashtag" ]],
-    ["name" => "Growth", "price" => "3.5", "color" => "#ec4899", "popular" => true, "features" => ["Konsep Desain Sosial Media", "Copywriting Menjual", "25 Post Feed Instagram", "6 Feed Carousel", "5 Video Story", "Free Highlight Cover", "Admin Post Feed", "Caption & Hashtag"]],
-    ["name" => "Premium", "price" => "7.5", "color" => "#be185d", "features" => ["Semua fitur Paket Growth", "Pembuatan Website Perusahaan (Landing Page / Company Profile)", "Integrasi WhatsApp / Contact Form", "Desain Website Menyesuaikan Branding", "Free Maintenance Website (basic)", "Support konsultasi digital"]],
+    ["name" => "Starter", "price" => "350.000", "color" => "#f9a8d4", "features" => ["Konsep Desain Sosial Media", "Copywriting Menjual", "12 Post Feed Instagram", "2 Feed Carousel", "2 Video Story" , "Free Highlight Cover" , "Admin Post Feed" , "Caption & Hashtag" ]],
+    ["name" => "Growth", "price" => "600.000", "color" => "#ec4899", "popular" => true, "features" => ["Konsep Desain Sosial Media", "Copywriting Menjual", "25 Post Feed Instagram", "6 Feed Carousel", "5 Video Story", "Free Highlight Cover", "Admin Post Feed", "Caption & Hashtag"]],
+    ["name" => "Premium", "price" => "1.200.000", "color" => "#be185d", "features" => ["Semua fitur Paket Growth", "Pembuatan Website Perusahaan (Landing Page / Company Profile)", "Integrasi WhatsApp / Contact Form", "Desain Website Menyesuaikan Branding", "Free Maintenance Website (basic)", "Support konsultasi digital"]],
 ];
 ?>
 <!DOCTYPE html>
@@ -644,7 +644,6 @@ footer {
         <div class="card-bar"><div class="card-bar-fill"></div></div>
       </div>
       <div class="floating-tag tag-1">🚀 +300% Followers</div>
-      <div class="floating-tag tag-2">💰 ROI 5x</div>
     </div>
   </div>
 </section>
@@ -736,7 +735,7 @@ footer {
       <div class="pkg-name"><?= $pkg['name'] ?></div>
       <div class="pkg-price">
         <span class="pkg-currency">Rp</span>
-        <span class="pkg-amount"><?= $pkg['price'] ?>jt</span>
+        <span class="pkg-amount"><?= $pkg['price'] ?></span>
         <span class="pkg-period">/bulan</span>
       </div>
       <ul class="pkg-features">
